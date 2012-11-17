@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="top10_text_info">#555555</color>
+    <color name="game_text_chronometer">#FFFFFF</color>
+    <color name="game_text_touch_count">#000000</color>
+    <color name="game_background">#CCDDFF</color>
+    
+</resources>
