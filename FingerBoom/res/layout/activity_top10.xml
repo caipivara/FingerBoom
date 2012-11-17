@@ -21,11 +21,10 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/top10_text_number"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="10dp"
         android:text="@string/top10_score_info"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="@color/top10_text_info"
-        android:textSize="50sp" />
+        android:textSize="130sp" />
 
     <ImageView
         android:id="@+id/imageView1"
@@ -43,9 +42,9 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/imageView1"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="70dp"
+        android:layout_marginBottom="30dp"
         android:text="0"
         android:textColor="@color/top10_text_info"
-        android:textSize="130sp" />
+        android:textSize="100sp" />
 
 </RelativeLayout>
