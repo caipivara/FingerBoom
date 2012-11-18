@@ -5,6 +5,7 @@ import java.util.Random;
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.SystemClock;
 import android.view.MotionEvent;
@@ -53,6 +54,9 @@ public class GameActivity extends Activity implements OnChronometerTickListener 
 		chronometer.setBase(SystemClock.elapsedRealtime());
 		chronometer.setOnChronometerTickListener(this);
 		chronometer.start();
+		
+		// Make start sound
+		MediaPlayer.create(this, R.raw.start).start();
 	}
 	
 	@Override
@@ -71,6 +75,24 @@ public class GameActivity extends Activity implements OnChronometerTickListener 
 		
 		return super.onTouchEvent(event);
 		
+	}
+	
+	@Override
+	public void onPause() {
+		super.onPause();
+		
+		if (chronometer != null) {
+			chronometer.stop();
+		}
+	}
+	
+	@Override
+	public void onResume() {
+		super.onResume();
+		
+		if (chronometer != null) {
+			chronometer.start();
+		}
 	}
 	
 	// --------------------------------
