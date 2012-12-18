@@ -2,7 +2,18 @@
 <resources>
 
     <string name="app_name">FingerBoom</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="game_stoped">Wait!! Time finished!!</string>
     <string name="top10_score_info">Score</string>
+    <string name="top10_score_text_1">Look at yourself in a mirror and say: I can do it!</string>
+    <string name="top10_score_text_2">Hey, Are you kidding me? Try harder!</string>
+    <string name="top10_score_text_3">What\'s wrong with your fingers???</string>
+    <string name="top10_score_text_4">Oh! Yeah! thats the way!! play again!!</string>
+    <string name="top10_score_text_5">Now your fingers can move!! Congratulations!</string>
+    <string name="top10_score_text_6">You are going crazy!!!</string>
+    <string name="top10_score_text_7">You\'re the god of fingers!!!!!</string>
+    <string name="top10_score_text_8">You are the man!!!!!</string>
+    <string name="top10_score_text_9">Do you really exist?? we can\'t believe you!</string>
+    <string name="top10_score_text_10">We kneel in front of you, you are the master!</string>
+    <string name="top10_score_text_11">Master! teach your friends how to play!</string>
 
 </resources>

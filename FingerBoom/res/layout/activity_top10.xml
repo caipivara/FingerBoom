@@ -12,22 +12,11 @@
         android:layout_centerHorizontal="true"
         android:gravity="center_horizontal"
         android:textColor="@color/top10_text_info"
-        android:textSize="30sp"
+        android:textSize="20sp"
         android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/top10_text_number"
-        android:layout_centerHorizontal="true"
-        android:text="@string/top10_score_info"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textColor="@color/top10_text_info"
-        android:textSize="130sp" />
-
     <ImageView
-        android:id="@+id/imageView1"
+        android:id="@+id/top10_image_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -40,11 +29,18 @@
         android:id="@+id/top10_text_number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/imageView1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="30dp"
-        android:text="0"
+        android:layout_alignTop="@+id/top10_image_character"
+        android:layout_toLeftOf="@+id/top10_image_character"
+        android:text="999"
         android:textColor="@color/top10_text_info"
         android:textSize="100sp" />
+
+    <ImageView
+        android:id="@+id/top10_image_character"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/character_1" />
 
 </RelativeLayout>
